@@ -1,0 +1,49 @@
+# Definição do Namespace
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: kubernetes-playground
+
+
+---
+
+# Definição do Pod
+
+###
+### Usando ReplicaSet para gerenciar pods
+### 
+
+
+# apiVersion: v1
+# kind: Pod
+# metadata:
+#   name: my-pod-webserver
+#   namespace: kubernetes-playground
+# spec:
+#   containers:
+#     - name: my-container-nginx
+#       image: nginx
+
+# ---
+
+# Definição de ReplicaSet que gerencia pods no namespace acima
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: my-replica-set
+  namespace: kubernetes-playground
+spec:
+  replicas: 0
+  selector:
+    matchLabels:
+      app: my-app
+      tier: frontend
+  template:
+    metadata:
+      labels:
+        app: my-app
+        tier: frontend
+    spec:
+      containers:
+        - name: my-container-nginx
+          image: nginx
