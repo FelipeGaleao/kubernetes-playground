@@ -54,3 +54,4 @@ kubectl logs <pod-name> -n kubernetes-playground
 - Veja **4. Services** para entender como expor Pods para a rede
 - Consulte **5. Liveness Prob** para aprender sobre health checks
 
+

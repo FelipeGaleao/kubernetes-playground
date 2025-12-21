@@ -224,3 +224,4 @@ kubectl logs liveness-pod --previous  # logs antes do crash
 - Use **Readiness Probes** em conjunto com **4. Services**
 - Explore **Startup Probes** para aplicações que iniciam lentamente
 
+

@@ -117,3 +117,4 @@ kubectl rollout status deployment/frontend-deployment
 - Veja **5. Liveness Prob** para adicionar health checks aos Deployments
 - Consulte **6. Resources** para definir limites de CPU e memória
 
+

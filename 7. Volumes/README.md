@@ -328,3 +328,4 @@ spec:
 - Implemente backup e disaster recovery
 - Veja **StatefulSets** para aplicações com estado (bancos de dados)
 
+

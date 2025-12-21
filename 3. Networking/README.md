@@ -110,3 +110,4 @@ O DNS resolve automaticamente:
 - Veja **clusterip-service.yaml** para permitir comunicação via nome de serviço
 - Consulte documentação de **Network Policies** para segurança de rede
 
+

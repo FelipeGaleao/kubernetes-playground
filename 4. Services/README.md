@@ -180,3 +180,4 @@ kubectl apply -f nodeport-service.yaml
 - Use **5. Liveness Prob** com Services para health checks
 - Explore **Ingress** para roteamento HTTP avançado (não está nesta pasta)
 
+

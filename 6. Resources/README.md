@@ -296,3 +296,4 @@ resources:
 - Explore **Vertical Pod Autoscaler (VPA)** para recomendações
 - Veja **5. Liveness Prob** para garantir saúde sob pressão
 
+
