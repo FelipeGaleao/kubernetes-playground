@@ -96,38 +96,6 @@ Este projeto contém documentação completa e exemplos práticos de todos os co
     - Auto-mirroring
     - Suporte IPv4/IPv6 (dual-stack)
 
-## 🎯 Guia de Aprendizado
-
-### Iniciante (Semana 1-2)
-Comece por estes conceitos fundamentais:
-1. Pods - entender unidade básica
-2. Deployments - como executar aplicações
-3. Services - como expor aplicações
-4. ConfigMap - como gerenciar configurações
-
-### Intermediário (Semana 3-4)
-Aprofunde com:
-5. Liveness Probes - saúde de containers
-6. Resources - performance e limites
-7. Volumes - dados persistentes
-8. Secrets - dados sensíveis
-
-### Avançado (Semana 5-6)
-Especialize-se em:
-9. DaemonSets - tarefas em cada node
-10. Jobs/CronJobs - tarefas periódicas
-11. StatefulSet - aplicações com estado
-12. Endpoints - descoberta de serviço
-
-## 📝 Estrutura das Pastas
-
-Cada pasta contém:
-- **README.md** - Documentação completa em Português
-- **arquivos .yaml** - Exemplos práticos
-- Explicações de conceitos
-- Tabelas comparativas
-- Casos de uso reais
-- Troubleshooting
 
 ## 🚀 Como usar este projeto
 
@@ -213,25 +181,6 @@ kubectl top nodes
 kubectl top pods
 ```
 
-## 📈 Progression Path
-
-```
-Iniciante:
-  Pods → Deployments → Services → ConfigMap
-
-Intermediário:
-  + Secrets → Volumes → Resources → Probes
-
-Avançado:
-  + DaemonSets → Jobs/CronJobs → StatefulSet
-  + Endpoints → Networking → Performance
-
-Expert:
-  + Operators → Custom Resources
-  + Network Policies → RBAC → Admission Controllers
-  + Monitoring → Logging → Tracing
-```
-
 ## 🎓 Recursos Adicionais
 
 - [Documentação oficial do Kubernetes](https://kubernetes.io/docs)
@@ -252,19 +201,3 @@ Expert:
 - Versione seus manifestos no git
 - Monitore saúde dos containers
 - Documente decisões de arquitetura
-
-## 📅 Atualizações
-
-Última atualização: 2024
-- ✅ 15 pastas com documentação completa
-- ✅ 6500+ linhas de documentação em Português
-- ✅ Exemplos práticos para cada conceito
-- ✅ Tabelas comparativas e guias de troubleshooting
-
-## 📄 Licença
-
-Este projeto é livre para uso educacional.
-
----
-
-**Comece agora**: Abra [1. Pods/README.md](./1.%20Pods/README.md) para começar! 🚀
